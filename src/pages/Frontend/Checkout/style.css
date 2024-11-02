@@ -1,0 +1,61 @@
+.checkout-container {
+  max-width: 700px; /* Limit the width of the checkout container */
+  margin: 20px auto; /* Center the container with margins */
+  padding: 20px; /* Add padding to the container */
+  background-color: #ffffff; /* White background for the form */
+  border-radius: 8px; /* Round the corners */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.checkout-title {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  font-size: 24px; /* Title size */
+}
+
+.form-group {
+  margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+  display: block; /* Block-level for labels */
+  margin-bottom: 5px; /* Space below labels */
+}
+
+input[type='email'],
+input[type='text'] {
+  width: 100%; /* Full width for input fields */
+  padding: 10px; /* Padding inside input fields */
+  border: 1px solid #ccc; /* Border color */
+  border-radius: 4px; /* Rounded corners */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.error-message {
+  color: red; /* Error message color */
+  font-size: 14px; /* Error message size */
+}
+
+.payment-methods {
+  margin-top: 10px; /* Space above payment methods */
+}
+
+.steps-action {
+  display: flex; /* Flexbox for button alignment */
+  justify-content: center; /* Center buttons */
+  margin-top: 20px; /* Space above buttons */
+}
+
+.add-btn {
+  padding: 10px 20px; /* Button padding */
+  background-color: #f7931e; /* Button color */
+  color: #ffffff; /* Text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer on hover */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.add-btn:hover {
+  background-color: #FF6F61; /* Change color on hover */
+}
